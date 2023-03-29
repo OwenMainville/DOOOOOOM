@@ -1,0 +1,95 @@
+* {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  z-index: 1;
+}
+
+
+body{
+    background-color: red;
+}
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+ .topnav a {
+    float:left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 40px 16px;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px black;
+    font-weight: bolder;
+    border-radius: 1;
+   
+  }
+ 
+.topnav a:hover {
+    background-color: rgb(185, 2, 2);
+    color: rgb(44, 98, 6) ;
+  }
+ 
+.topnav a.active {
+    background-color: rgb(141, 6, 6);
+    color: white;
+    width: 22%
+  }
+
+
+  .download {
+    width: 22%;
+  }
+
+
+  .blog {
+    width: 22%;
+  }
+
+
+  .subscribe {
+    width: 22%;
+  }
+  .inthints{
+    width: 22%;
+  }
+  .controller {
+    position: absolute;
+    left: 350px;
+    top: 650px;
+  }
+
+
+  h1 {
+    font-weight: bolder;
+  }
+
+
+  footer {
+    background-color: rgb(100, 0, 0);
+    border-radius: 10px;
+    z-index: 2;
+  }
+
+
+  h2 {
+    font-weight: bolder;
+  }
+
+
+  .msg {
+    position: absolute;
+    left: 50px;
+  }
+
+
+  .rpl {
+    position: absolute;
+    left: 80px;
+  }
+
+  .email {
+    border-radius: 10px;
+    border:rgb(0, 0, 0)
+  }
